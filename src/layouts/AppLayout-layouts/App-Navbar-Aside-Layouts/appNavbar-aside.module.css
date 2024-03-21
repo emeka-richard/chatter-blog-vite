@@ -1,0 +1,62 @@
+.appNav_aside_wrapper {
+    width: 268px;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding-top: 10px;
+    border-right: 1px solid var(--just-grey);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: var(--default-background);
+    overflow-y: auto;
+  }
+  .appNav_aside_h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--purple-color);
+  }
+  
+  /* App Navbar <Overview> | <TrendTag> Chambers CSS */
+  .appNav_overview_wrapper,
+  .appNav_trendTag_wrapper,
+  .appNav_personal_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 68px;
+    gap: 24px;
+  }
+  .appNav_overview_h3,
+  .appNav_trendTag_h3,
+  .appNav_personal_h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--primary-black);
+  }
+  .appNav_overview_container,
+  .appNav_trendTag_container,
+  .appNav_personal_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 26px;
+  }
+  .appNav_trendTag_header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  

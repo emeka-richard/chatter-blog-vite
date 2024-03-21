@@ -1,0 +1,100 @@
+.hero_page_main {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* Hero Page Layout CSS */
+.hero_page_wrapper {
+    width: 100%;
+    padding-top: 98px;
+}
+
+
+/* Publish Artice Layout CSS */
+.create_post_wrapper {
+    width: 100%;
+    min-height: 85vh;
+    height: max-content;
+    padding: 36px;
+    padding-right: 0;
+    }
+  .create_post_container {
+    width: 100%;
+    min-height: 85vh;
+    height: max-content;
+    border: 1px solid var(--just-grey);
+    padding: 50px 120px 20px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+  .create_post_header_btns_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .create_post_header_btns_right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+  }
+  .create_post_header_btn_preview, .create_post_header_btn_publish {
+    width: 144px;
+    height: 58px;
+    background-color: var(--purple-color);
+    color: var(--primary-white);
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+  } 
+  .create_post_header_btn_edit {
+    width: 144px;
+    height: 58px;
+    background-color: var(--light-grey);
+    color: var(--primary-black);
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--purple-color);
+    outline: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .create_post_header_btn_disabled {
+    width: 144px;
+    height: 58px;
+    background-color: var(--light-grey);
+    color: var(--just-grey);
+    /* color: var(--primary-black); */
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid var(--purple-color); */
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+  }

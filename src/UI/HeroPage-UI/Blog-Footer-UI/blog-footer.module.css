@@ -1,0 +1,110 @@
+.blog_wrapper {
+    width: 100%;
+    height: max-content;
+    padding: 5.5rem 7rem;
+    background-color: var(--default-background);
+  }
+  .blog_container {
+    width: 100%;
+    height: 412px;
+    padding: 0 6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  .blog_img_section {
+    width: max-content;
+    height: 412px;
+    display: flex;
+    align-items: center;
+    gap: 44px;
+  }
+  .blog_two_imgs {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .blog_img_3,
+  .blog_img_4,
+  .blog_img_2 {
+    border-radius: 50%;
+    width: 154px;
+    height: 154px;
+  }
+  .blog_text_section {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .blog_text_h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    max-width: 900px;
+  }
+  .blog_text_p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 800px;
+  }
+  .blog_btn {
+    width: 156px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: var(--purple-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--primary-white);
+    text-decoration: none;
+  }
+  
+  
+  
+  /* Footer CSS */
+  .footer_wrapper {
+    width: 100%;
+    height: 402px;
+    padding: 5rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--off-white);
+  }
+  .footer_title_h2 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 72px;
+      color: var(--purple-color);
+      text-decoration: none;
+  }
+  .footer_explore_container,
+  .footer_support_container,
+  .footer_blog_container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .footer_h4 {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+  }
+  .footer_item {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+  }
+  

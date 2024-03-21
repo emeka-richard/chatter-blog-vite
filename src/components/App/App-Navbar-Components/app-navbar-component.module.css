@@ -1,0 +1,54 @@
+.feed_item_container,
+.bookmark_item_container,
+.team_blog_item_container,
+.draft_item_container,
+.analytics_item_container,
+.account_item_container, 
+.notification_item_wrapper,
+.logout_item_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    text-decoration: none;
+    border: none;
+    background: transparent;
+}
+.feed_item_p,
+.bookmark_item_p,
+.team_blog_item_p,
+.draft_item_p,
+.analytics_item_p,
+.account_item_p,
+.notification_item_p,
+.logout_item_p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--off-black);
+}
+
+
+/* Trending Tag Item CSS */
+.trend_tag_item_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.trend_tag_item_p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--off-black);
+    text-decoration: none;
+    border: none;
+}
+/* .trend_tag_item_see_all_container {
+
+} */
+.trend_tag_item_see_all_p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--purple-color);
+}
